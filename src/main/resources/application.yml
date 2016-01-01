@@ -1,0 +1,25 @@
+info:
+  component: Config Server
+
+spring:
+  application:
+    name: configserver
+
+  jmx:
+    default_domain: cloud.config.server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/pilif42/springCloudConfiguration
+
+server:
+  port: 8888
+
+security:
+  user:
+    password: thepassw0rd
+
+management:
+  context_path: /admin

@@ -19,7 +19,7 @@ server:
 
 security:
   user:
-    password: thepassw0rd
+    password: '{cipher}AQAOZPM/6g95f5c9FUd0L3NyUSlnV8Js6xUdgZnWNrILDudlstRJRzZBEbhemzSi+eiw6VXA7JN6N+bKnhDvGp8kjM0um02KPqZmyKpIYNUgSMFRE5v/3AUcH7RUhPjSqZfYKuyEwtnIy9GTE1PttxjiqhpafZKkZD0O825f4yQnc6eofduCeF3W71m5EVfBw5eMbbnGdH5vSr0hR1AlxBfMkRO2jAZ4lIN5g62JgkG331PZu943LJfKus90EjA0M7p/icSdJxPb51thpGj/GTi3DfnrFPAs4bg+xLs/faQjl6fY0XTzw8ohO7IQNr0MoEzFeV5O5PpG/F1BiHXjjxvTrlEqqhR4YZ2gTu0pEhOz0uDtuG5Lt731rbMHXtM+Pxs='
 
 management:
   context_path: /admin

@@ -6,7 +6,7 @@ Server providing support for externalized configuration in a distributed system
 gradlew clean build
 
 
-# To access props (credentials specified in application.yml)
+# To access props (credentials specified in application.yml - see below for details)
 curl -v -X GET http://localhost:8888/cspuserapi/dev/master --user user:thepassw0rd
 200 {"name":"cspuserapi","profiles":["dev"],"label":"master","propertySources":[{"na
     me":"https://github.com/pilif42/springCloudConfiguration/application.properties"
@@ -19,5 +19,12 @@ curl -v -X GET http://localhost:8888/cspuserapi/dev/master --user user:thepassw0
     ="}}]}
 
 
-# TODO encrypt thepassw0rd
+# Work done on the credentials
+    - encryption of thepassw0rd:
+            - open a Command Prompt
+            - spring encrypt thepassw0rd --key @C:\Users\PBrossier\.ssh\mobileBackEnd.pem
+            - copy the result into application.yml
+    - TODO: configure the keystore correctly --> see http://projects.spring.io/spring-cloud/spring-cloud.html#_key_management
+
+
 # TODO decrypt props inbound.secured.endpoints.password

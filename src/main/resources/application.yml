@@ -22,5 +22,10 @@ security:
   user:
     password: '{cipher}e3ef56cf3ec969fb9f920b94f4ac3389a300297226b2985917637f3beb801953'
 
+# set up with asymmetric key (public key = springcloudserver_rsa.pub)
+#security:
+#  user:
+#    password: '{cipher}AgAQMwrWeFgdQghWcGy6ma6A5xjzCpAMxYf2kDaZczorQnQt85qsawoY41U1IHnxo7FNoVgBVh4xTVM53XDIKjsqu+wqZLlkoJ6I9zf0U7cEXZOTo074L2pZSRSnIcaxP5NLfk6h29R9n5n007A97mUUeKGOPGDCx5uyx8g6LrEXbpedhnQqbheb+ctc/eT/0IjMslM7MILJTeeFLrIvGcy1DuzCyBjS8rLzw1HPDODj/z1fLhvntSjTuc+P2HIJXIdtgR6yKzP7YGagK0wDdlmSB6kxRF0RclPh37u3EJLLMKCHQRg5BlecFEWvvsHWVsyT46YGQtZYIKrOcKyUsrNgxOAyWJtHp4FMGPDI2SUu2ihl/pRbJIHudPrXCvH2UChkP0Ca8TBZzA/55B/whr1Nt3vfU7D5+sd/NMgwojdPIFLA6klFJevvCQhLj40iQHDWg0ATAc9LXg0KrfZ484mPGFA+/ql+Pzyk3/G9XWg4JfHW4fbKT0aSJ2LI6RqZKGge3OMuvWeHnhyXeKqJYYA4h+JjMIJE+xGsO148ME91avjoFqGi608ka9G6Nyh9R2JnCQt+wn/F0wy3W+gPwiWGLj/1y6dPZGf5FgihZtFtHiE9c0JJHIhby7r5Q1ebxvqSSguuYFpPkHiatttE1I5W6RAkzPob+erwlVaAgFHvRAHeqYQMfkX5bb4u8tnyTw902DfornNTCEDfLOfsxa85'
+
 management:
   context_path: /admin
